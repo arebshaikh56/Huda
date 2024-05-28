@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Huda</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Huda</h1>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/products">Products</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/cart">Cart</a></li>
+                    <li><a href="/login">Login/Register</a></li>
+                    <i class='bx bx-shopping-bag cart-icon ' id="cart-icon" data-quantity="0"></i>
+
+                    <div class="cart">
+                        <h2 class="cart-title">Your Cart</h2>
+                        <div class="cart-content">
+                            <!-- <div class="cart-box"> 
+                                <img src="images/product1.jpg" class="cart-img" alt="">
+                                <div class="detail-box">
+                                    <div class="cart-product-title">product1</div>
+                                    <div class="cart-price">$20</div>
+                                    <input type="number" value="1" class="cart-quantity" min="1">
+                                </div>
+                                <i class='bx bxs-trash-alt cart-remove'></i>
+                            </div> -->
+                        </div>
+                        <div class="total">
+                            <div class="total-title">Total</div>
+                            <div class="total-price">$0</div>
+                        </div>
+                        <button type="button" class="btn-buy">Buy Now</button>
+
+                        <i class="bx bx-x" id="close-cart"></i>
+                    </div>
+                </ul>
+            </nav>
+            <!-- <div>
+                <i class='bx bx-shopping-bag'></i>
+            </div> -->
+        </div>
+    </header>
+
+    <!-- Product Grid -->
+    <section class="product-grid">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-card">
+                <img src="images/product1.jpg" alt="Product 1" class="product-img">
+                <h3 class="product-title">Product 1</h3>
+                <p class="price">$19.99</p>
+                <p>Elegant Formal Pakistani Dress in White Shade a Beautiful Pakistani Dress with breathtaking adornments on it.</p>
+                <a  class="btn btn-secondary add-cart">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="images/product2.jpg" alt="Product 2" class="product-img">
+                <h3 class="product-title">Product 2</h3>
+                <p class="price">$29.99</p>
+                <p>Elegant Formal Pakistani Dress in White Shade a Beautiful Pakistani Dress with breathtaking adornments on it</p>
+                <a  class="btn btn-secondary add-cart">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="images/product3.jpg" alt="Product 3" class="product-img">
+                <h3 class="product-title">Product 3</h3>
+                <p class="price">$29.99</p>
+                <p>Elegant Formal Pakistani Dress in White Shade a Beautiful Pakistani Dress with breathtaking adornments on it</p>
+                <a  class="btn btn-secondary add-cart">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="images/product4.jpg" alt="Product 4" class="product-img">
+                <h3 class="product-title">Product 4</h3>
+                <p class="price">$29.99</p>
+                <p>Elegant Formal Pakistani Dress in White Shade a Beautiful Pakistani Dress with breathtaking adornments on it</p>
+                <a  class="btn btn-secondary add-cart">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="images/product5.jpg" alt="Product 5" class="product-img">
+                <h3 class="product-title">Product 5</h3>
+                <p class="price">$29.99</p>
+                <p>Green Long A-Line Shirt Sharara Pakistani Eid Dresses is all set to make you look elegant in its sleek and chic lawn printed base sharara kameez paired with chiffon dupatta in heavy printed style.</p>
+                <a  class="btn btn-secondary add-cart">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="images/product6.jpg" alt="Product 6" class="product-img">
+                <h3 class="product-title">Product 6</h3>
+                <p class="price">$29.99</p>
+                <p>Elegant Formal Pakistani Dress in White Shade a Beautiful Pakistani Dress with breathtaking adornments on it.</p>
+                <a  class="btn btn-secondary add-cart">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="images/product7.jpg" alt="Product 7" class="product-img">
+                <h3 class="product-title">Product 7</h3>
+                <p class="price">$29.99</p>
+                <p>LimeLight U1396SH-SSH-BRN is pakistani branded suit 100% Original and Shipping World wide.</p>
+                <a  class="btn btn-secondary add-cart">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="images/product8.jpg" alt="Product 8" class="product-img">
+                <h3 class="product-title">Product 8</h3>
+                <p class="price">$29.99</p>
+                <p>Zaaviay Pareesa Arzish Raw Silk Luxury Collection 2020 | Zaaviay Arzish Collection is Original Ladies Clothing Brand, and provides both Styles shalwar kameez suits and kurtis.</p>
+                <a  class="btn btn-secondary add-cart">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="images/product9.jpg" alt="Product 9" class="product-img">
+                <h3 class="product-title">Product 9</h3>
+                <p class="price">$29.99</p>
+                <p>Zara Shahjahan Z22-10b Coco Lawn Original brand suit fabric and photography lite diffrance in actual print.</p>
+                <a  class="btn btn-secondary add-cart">Add to Cart</a>
+            </div>
+            <!-- Add more product cards as needed -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Huda</p>
+        </div>
+    </footer>
+
+    <script src="/scripts/script.js"></script>
+</body>
+</html>
